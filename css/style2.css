@@ -1,0 +1,54 @@
+p{
+ color: blue;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+}
+
+.contenedor-1{
+
+    background-color: rgb(177, 227, 244);
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#principal{
+
+    background: #fff;                 /* Fondo blanco */
+    box-shadow: 0 10px 20px #bbb;      /* Sombreado ligero */
+    max-width: 800px;                 /* Ancho máximo de 800px */
+    margin: 32px auto;                /* Centrado horizontal (arriba y abajo 32px, a los lados auto) */
+    border-radius: 16px;              /* Opcional: esquinas redondeadas */
+    padding: 2rem; 
+}
+
+img{
+      display: block;
+    margin: 1.5rem auto 2.5rem auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 18px #000;
+    max-width: 95vw;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+a {
+    color: #ff1428;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #ffff0a;
+    text-decoration: underline wavy;
+}
+footer{
+    text-align: center;
+    
+}
