@@ -71,9 +71,6 @@ nav ul li a:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
 footer{
     background-color: #004080;
     padding: 15px 10px;
@@ -81,3 +78,23 @@ footer{
     text-align: center;
     margin-top: 10px;
 }
+
+.footer-content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;    
+  color: white;
+  gap: 40px;                  
+}
+
+.icono-social {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;         
+  transition: transform 0.2s;
+}
+
+.icono-social:hover {
+  transform: scale(1.1);
+}
+
