@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e8fefa; 
+}
+header {
+  text-align: center;
+  background: #20c997;  
+  color: #fff;
+  padding: 18px 0;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px #7be7c9;
+}
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  background: #abf3e2; 
+  padding: 14px 0;
+  box-shadow: 0 2px 6px #7be7c9;
+}
+.nav-flex a {
+  text-decoration: none;
+  color: #137a5c;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background .14s, color .14s;
+}
+.nav-flex a:hover {
+  background: #d3fcf3;
+  color: #20c997;
+}
+.contenedor-principal {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+.bloque-pais {
+  margin-bottom: 36px;
+}
+.bloque-pais h2 {
+  margin-bottom: 15px;
+  color: #137a5c;
+  background: #d3fcf3;
+  padding: 7px 18px;
+  border-radius: 8px;
+  width: fit-content;
+  box-shadow: 0 1px 3px #abf3e244;
+  font-weight: bold;
+}
+.flex-equipos {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.equipo {
+  background: #f6fffb;
+  border-radius: 10px;
+  padding: 18px 18px 22px 18px;
+  box-shadow: 0 2px 8px #abf3e288;
+  min-width: 140px;
+  max-width: 160px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #20c997;
+  border: 1.5px solid #abf3e2;
+  transition: box-shadow 0.16s, transform 0.16s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nombre-equipo {
+  font-size: 1.08em;
+  color: #20c997;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+}
+.equipo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 5px #abf3e244;
+  margin-bottom: 4px;
+}
+.equipo:hover {
+  box-shadow: 0 8px 24px #7be7c9cc;
+  transform: translateY(-4px) scale(1.03);
+  background: #d3fcf3;
+  color: #137a5c;
+}
+@media (max-width: 700px) {
+  .equipo {
+    width: 90vw;
+    max-width: 95vw;
+  }
+}
+
+footer {
+  background: #20c997;
+  color: #e8fefa;
+  text-align: center;
+  padding: 16px 0 10px 0;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  box-shadow: 0 -2px 8px #7be7c966;
+}
