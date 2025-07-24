@@ -11,27 +11,7 @@ header {
   letter-spacing: 2px;
   box-shadow: 0 2px 8px #7be7c9;
 }
-.nav-flex {
-  display: flex;
-  justify-content: center;
-  gap: 28px;
-  background: #abf3e2; 
-  padding: 14px 0;
-  box-shadow: 0 2px 6px #7be7c9;
-}
-.nav-flex a {
-  text-decoration: none;
-  color: #137a5c;
-  font-weight: bold;
-  font-size: 1.1em;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: background .14s, color .14s;
-}
-.nav-flex a:hover {
-  background: #d3fcf3;
-  color: #20c997;
-}
+
 .contenedor-principal {
   max-width: 1100px;
   margin: 32px auto;
